@@ -30,6 +30,9 @@
   --error-light: #ffebee;
   --info: #0c5460;
   --info-light: #d1ecf1;
+
+  /* Announcement banner color */
+  --announcement-bg: #4caf50;
 }
 
 * {
@@ -663,4 +666,13 @@ footer {
 
 #logout-button:hover {
   background-color: rgba(255, 255, 255, 0.3);
+.announcement-banner {
+  background-color: #256029; /* Darker green for better contrast */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
+  padding: 15px;
+  font-weight: bold;
 }
